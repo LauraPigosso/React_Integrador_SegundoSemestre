@@ -1,12 +1,11 @@
 import Header from "../Layout/Header/Header"
+import LogoTitulo from "../static/Iamgens/LogoTitulo.png"
 
 function Home() {
 
         return (
       <>
-        <Header titulo="Bem vindo a Metflix" banner={banner} ></Header>
-        <Main movies={MoviesP}></Main>
-        <Footer></Footer>
+        <Header LogoTitulo={LogoTitulo} ></Header>
       </>
     )
   }

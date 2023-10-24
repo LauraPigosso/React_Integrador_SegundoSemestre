@@ -1,15 +1,22 @@
 import { useState } from 'react'
 import Header from './assets/Layout/Header/Header'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './assets/pages/Principal'
 
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
-    <>
-    <Header></Header>
-    </>
+    <BrowserRouter>
+      <Routes>
+      <Route path='/' element={<Home/>}></Route>
+    </Routes>
+          
+    </BrowserRouter>
+
+  
   )
 }
 
