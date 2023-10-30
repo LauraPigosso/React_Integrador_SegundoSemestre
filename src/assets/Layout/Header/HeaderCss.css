@@ -2,8 +2,8 @@
 
 .container {
     background-color: #181818;
-    /* padding: 10px; */
     font-family: 'Nunito', sans-serif;
+    
   }
   
   .Header {
@@ -11,6 +11,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 0;
+    
+   
   }
   
   .LogoTitulo {
@@ -34,10 +36,20 @@
     text-decoration: underline;
   }
 
-  .BotaoRosa{
-    margin: 0 10px;
+  .BotaoRosa {
+    list-style: none;
+    padding: 0;
+    display: flex;
     color: #FF6FD7;
-    font-weight: bold;
+    cursor: pointer;
     text-decoration-line: underline;
-    background-color: #181818;
+
+
   }
+
+  
+  .BotaoRosa li:hover {
+    text-decoration: underline;
+  }
+  
+  
