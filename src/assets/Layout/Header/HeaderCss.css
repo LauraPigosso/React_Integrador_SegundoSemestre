@@ -3,7 +3,6 @@
 .container {
     background-color: #181818;
     font-family: 'Nunito', sans-serif;
-    
   }
   
   .Header {
@@ -11,8 +10,6 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 0;
-    
-   
   }
   
   .LogoTitulo {
@@ -23,12 +20,12 @@
     list-style: none;
     padding: 0;
     display: flex;
+    align-items: center; /* Alinhar verticalmente os itens da lista */
   }
   
   .Lista li {
     margin: 0 10px;
     color: #fff;
-    font-weight: bold;
     cursor: pointer;
   }
   
@@ -43,13 +40,18 @@
     color: #FF6FD7;
     cursor: pointer;
     text-decoration-line: underline;
-
-
+    margin: 20px;
   }
 
-  
   .BotaoRosa li:hover {
     text-decoration: underline;
+  }
+
+  .Botoes{
+    padding: 0;
+    display: flex;
+    align-items: center; /* Alinhar verticalmente os itens da lista */
+    margin: 0 10px;
   }
   
   

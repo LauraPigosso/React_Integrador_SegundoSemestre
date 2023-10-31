@@ -1,6 +1,9 @@
 .EstiloBRosa {
-    width: 265px;
-    height: 83px;
+    width: 150px;
+    height: 50px;
 	border-radius: 29px;
-    background: '#FF6FD7';
+    background-color: #FF6FD7;
+    font-weight: bold;
+    cursor: pointer;
+
 }
