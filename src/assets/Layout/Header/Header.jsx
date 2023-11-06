@@ -18,7 +18,7 @@ const Header = (props) => {
           <ul>
             <li className="BotaoRosa">Entrar</li>
           </ul>
-          <BotaoRosaPrincipal frase="Abrir conta" />
+          <BotaoRosaPrincipal frase="Abrir Conta" />
         </div>
       </div>
     </div>

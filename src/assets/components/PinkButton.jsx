@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './PinkButton.css'
+import './PinkButton.css'
 
 const BotaoRosaPrincipal = (props) => {
   return (
