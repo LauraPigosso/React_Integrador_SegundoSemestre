@@ -1,0 +1,19 @@
+.Container {
+    background-color: #181818;
+    font-family: 'Nunito', sans-serif;
+    display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.Texto  {
+    color: #fff;
+    word-break: normal;
+    margin: 80px;
+    font-size: 2rem;
+    text-align: left;
+}
+
+.Mulher {
+    width: 388px;
+    height: 500px;
+}

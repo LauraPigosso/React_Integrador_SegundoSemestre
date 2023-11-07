@@ -3,6 +3,7 @@
 .container {
     background-color: #181818;
     font-family: 'Nunito', sans-serif;
+    border: 1px solid #222222;
   }
   
   .Header {

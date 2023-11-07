@@ -1,0 +1,10 @@
+.EstiloBRosa {
+    width: 130px;
+    height: 30px;
+	border-radius: 5px;
+    background-color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    border: #000000;
+}
