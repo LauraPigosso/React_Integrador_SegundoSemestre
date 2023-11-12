@@ -1,6 +1,6 @@
-import Header from "../assets/Layout/Header/Header"
-import LogoTitulo from "../static/Imagens/LogoTitulo.png"
-import CardButton from "../assets/Layout/CardButton/CardButton"
+import Header from "../Layout/Header/Header"
+import LogoTitulo from "../Imagens/LogoTitulo.png"
+import CardButton from "../Layout/CardButton/CardButton"
 
 function Home() {
 
