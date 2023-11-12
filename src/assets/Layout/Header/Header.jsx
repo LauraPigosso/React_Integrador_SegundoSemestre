@@ -1,6 +1,6 @@
 import React from "react";
 import LogoTitulo from "../../static/Imagens/LogoTitulo.png";
-import BotaoRosaPrincipal from "../../components/PinkButton";
+import BotaoRosaPrincipal from "../../../components/PinkButton";
 import './HeaderCss.css'; // Importe o arquivo CSS
 
 const Header = (props) => {

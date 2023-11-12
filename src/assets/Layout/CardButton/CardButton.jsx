@@ -1,5 +1,5 @@
 import React from "react";
-import BotaoRosaPrincipal from "../../components/PinkButton";
+import BotaoRosaPrincipal from "../../../components/PinkButton";
 import Mulher from "../../static/Imagens/Mulher.png"
 import "./CardButton.css";
 
