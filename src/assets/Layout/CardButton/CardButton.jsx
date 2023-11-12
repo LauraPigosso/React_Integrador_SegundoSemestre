@@ -1,6 +1,6 @@
 import React from "react";
 import BotaoRosaPrincipal from "../../components/PinkButton";
-import Mulher from "../../static/Iamgens/Mulher.png"
+import Mulher from "../../static/Imagens/Mulher.png"
 import "./CardButton.css";
 
 const CardButton = (props) => {

@@ -1,5 +1,5 @@
 import Header from "../Layout/Header/Header"
-import LogoTitulo from "../static/Iamgens/LogoTitulo.png"
+import LogoTitulo from "../static/Imagens/LogoTitulo.png"
 import CardButton from "../Layout/CardButton/CardButton"
 
 function Home() {
