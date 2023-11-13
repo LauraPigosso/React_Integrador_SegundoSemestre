@@ -1,3 +1,43 @@
 *{
     background-color: black;
 }
+
+.sobre {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    color: #fff;
+    margin: 20px 0;
+  }
+  
+  .sobre h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 1em;
+  }
+  
+  .sobre p {
+    /* margin-bottom: 2em; */
+    margin: 0 1em 2em 1em;
+    text-align: justify;
+  }
+  
+  .sobre ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  
+  .sobre li {
+    margin-bottom: 5px;
+  }
+  
+  .sobre a {
+    color: #FF6FD7;
+    text-decoration: none;
+  }
+  
+  .sobre a:hover {
+    text-decoration: underline;
+  }
+  

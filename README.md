@@ -15,9 +15,12 @@ Colocar links aqui do figma
 - [Figma](google.com)
 
 ## Requisitos
-- Para inicializar o projeto, você precisará de :
-    Um manager de arquivos (Yarn ou NPM)
-    Rode o comando 
+
+Para inicializar o projeto, você precisará de :
+
+- Um manager de arquivos (Yarn ou NPM)
+- Rode o comando
+
     ```Shell
     Yarn
-    ````
+    ```

@@ -1,15 +1,18 @@
 import React from "react";
-import LogoTitulo from "../../Imagens/LogoTitulo.png";
+import {Link} from "react-router-dom"
+import LogoTitulo from "../../assets/LogoTitulo.png";
 import BotaoRosaPrincipal from "../../components/PinkButton";
 import './HeaderCss.css'; // Importe o arquivo CSS
 
-const Header = (props) => {
+const Header = () => {
   return (
     <div className="container">
       <div className="Header">
-        <img className="LogoTitulo" src={LogoTitulo} alt="" />
+        <Link to="/">
+          <img className="LogoTitulo" src={LogoTitulo} alt="" />
+        </Link>
         <ul className="Lista">
-          <li>Sobre nós</li>
+          <Link to="/sobre-nos">Sobre nós</Link>
         </ul>
         <ul className="Lista">
           <li>Para você</li>
